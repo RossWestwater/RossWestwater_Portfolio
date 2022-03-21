@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/RossWestwater_Portfolio/static/css/main.811bf9a4.css",
+    "main.js": "/RossWestwater_Portfolio/static/js/main.3204f9bd.js",
+    "static/js/787.29f5f528.chunk.js": "/RossWestwater_Portfolio/static/js/787.29f5f528.chunk.js",
+    "static/media/Ross-with-son.JPG": "/RossWestwater_Portfolio/static/media/Ross-with-son.72ab5ff9b1ff53e3be96.JPG",
+    "index.html": "/RossWestwater_Portfolio/index.html",
+    "main.811bf9a4.css.map": "/RossWestwater_Portfolio/static/css/main.811bf9a4.css.map",
+    "main.3204f9bd.js.map": "/RossWestwater_Portfolio/static/js/main.3204f9bd.js.map",
+    "787.29f5f528.chunk.js.map": "/RossWestwater_Portfolio/static/js/787.29f5f528.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.811bf9a4.css",
+    "static/js/main.3204f9bd.js"
+  ]
+}
