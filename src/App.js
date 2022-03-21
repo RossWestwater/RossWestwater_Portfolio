@@ -4,22 +4,30 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About"
+import ContactForm from "./components/Contact"
+import Resume from "./components/Resume";
+
 
 function App() {
 
-  const [pageRender, setPageRender] = useState('portfolio')
+  const [pageRender, setPageRender] = useState('about')
 
   const RenderComponent = () => {
-    console.log(pageRender)
     switch (pageRender) {
-      case 'portfolio':
-        return <Portfolio/>
-  
       case 'about':
         return <About/>
+        
+      case 'portfolio':
+        return <Portfolio/>
+
+      case 'contact':
+        return <ContactForm/>
+
+      case 'resume':
+        return <Resume/>
   
       default:
-        return <div>empty</div>
+        return <About/>
     }
   }
 
