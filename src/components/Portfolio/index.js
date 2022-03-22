@@ -1,9 +1,12 @@
 import React from 'react';
+import PhotoList from '../Photos';
 
-function Portfolio(props) {
+function Portfolio() {
   
   return (
-    <div className='mx-2'>Portfolio</div>
+    <div>
+      <PhotoList/>
+    </div>
   )
 }
 
