@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/RossWestwater_Portfolio/static/css/main.811bf9a4.css",
-    "main.js": "/RossWestwater_Portfolio/static/js/main.3204f9bd.js",
+    "main.css": "/RossWestwater_Portfolio/static/css/main.be879aa8.css",
+    "main.js": "/RossWestwater_Portfolio/static/js/main.98cdbf8a.js",
     "static/js/787.29f5f528.chunk.js": "/RossWestwater_Portfolio/static/js/787.29f5f528.chunk.js",
     "static/media/Ross-with-son.JPG": "/RossWestwater_Portfolio/static/media/Ross-with-son.72ab5ff9b1ff53e3be96.JPG",
+    "static/media/LastMinute.png": "/RossWestwater_Portfolio/static/media/LastMinute.34a6a503d1b0c4e16201.png",
+    "static/media/Quiz_Time_App.png": "/RossWestwater_Portfolio/static/media/Quiz_Time_App.9d40607262632964aa8e.png",
+    "static/media/Forecast_App.png": "/RossWestwater_Portfolio/static/media/Forecast_App.3cf6ea973c900bf062ae.png",
+    "static/media/Trouble_Shot.png": "/RossWestwater_Portfolio/static/media/Trouble_Shot.262a9819e442a02201dd.png",
+    "static/media/Budget_Tracker_App.png": "/RossWestwater_Portfolio/static/media/Budget_Tracker_App.cd50e8326caef1b87714.png",
+    "static/media/Scheduling_App.png": "/RossWestwater_Portfolio/static/media/Scheduling_App.74d9ea47bdd6b353e3a2.png",
     "index.html": "/RossWestwater_Portfolio/index.html",
-    "main.811bf9a4.css.map": "/RossWestwater_Portfolio/static/css/main.811bf9a4.css.map",
-    "main.3204f9bd.js.map": "/RossWestwater_Portfolio/static/js/main.3204f9bd.js.map",
+    "main.be879aa8.css.map": "/RossWestwater_Portfolio/static/css/main.be879aa8.css.map",
+    "main.98cdbf8a.js.map": "/RossWestwater_Portfolio/static/js/main.98cdbf8a.js.map",
     "787.29f5f528.chunk.js.map": "/RossWestwater_Portfolio/static/js/787.29f5f528.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.811bf9a4.css",
-    "static/js/main.3204f9bd.js"
+    "static/css/main.be879aa8.css",
+    "static/js/main.98cdbf8a.js"
   ]
 }
