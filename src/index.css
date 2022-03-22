@@ -101,7 +101,7 @@ h6 {
 
 p {
   font-size: 1.1rem;
-  margin-top: 0;
+margin: auto;
 }
 
 a {
@@ -199,6 +199,13 @@ textarea {
   padding: 5px;
 }
 
+.portfolio-cont {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
 .container {
   width: 85%;
   max-width: 1200px;
@@ -207,6 +214,11 @@ textarea {
 }
 
 .flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photoDisplay {
   display: flex;
   flex-wrap: wrap;
 }
@@ -222,6 +234,11 @@ textarea {
 
 .flex-end {
   justify-content: flex-end;
+}
+
+.mb-2 {
+  margin-top: var(--spacing-two);
+  margin-bottom: var(--spacing-two);
 }
 
 .mx-1 {
@@ -277,8 +294,12 @@ textarea {
 .img-thumbnail {
   max-width: 500px;
   height: 300px;
+  margin-bottom: 1rem;
+}
+
+.thumbnail-text {
+  max-width: 500px;
   margin-bottom: 3rem;
-  cursor: pointer;
 }
 
 .modalBackdrop {

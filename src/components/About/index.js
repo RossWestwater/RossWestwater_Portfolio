@@ -3,14 +3,14 @@ import React from "react";
 const About = () => {
   
   return (
-    <div>
+    <div className="center">
       <h2>About Me</h2>
       <img
             src={require('../../assets/images/Ross-with-son.JPG')}
             alt="Ross with his son, Phineas"
             className="img-thumbnail mx-1"
           />
-      <p>
+      <p className="thumbnail-text">
         Married father of one son (pictured) I have dedicated my life to
         personal development. My focus at this time is in website development
         and I know I can provide an elegant and succinct solution to your
