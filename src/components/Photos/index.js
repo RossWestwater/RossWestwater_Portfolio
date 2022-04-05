@@ -2,6 +2,15 @@ const PhotoList = () => {
 
   const photos = [
     {
+      name: 'WorthIt',
+      description:
+        "A full-stack web application built for users using gig economy jobs to earn an income. Individuals log in securely, input static values in their profile that are easily adjustable, then the app tells them if the job is worth accepting!" ,
+      technologiesUsed: 'express, mongoose, mongoDB, bcrypt, json-web-token, tailwind, javascript, react, react-bootstrap',
+      filePath: 'WorthIt_App',
+      githubRepository: 'https://github.com/RossWestwater/WorthIt',
+      deployedApp: 'https://worth-it-2022.herokuapp.com/'
+    },
+    {
       name: 'TroubleShot',
       description:
         "A full-stack web application built for individual user use. Individuals log in to 'stash' useful bits of information to reference down the road." ,

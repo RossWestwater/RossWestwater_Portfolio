@@ -3,7 +3,6 @@ import Nav from '../Navigation';
 
 
 function Header(props) {
-  
   return (
     <header>
       <h1>Ross Westwater</h1>
