@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import {validateEmail} from '../../utils/helpers';
+import { Container, Row, Col } from 'react-bootstrap'
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -36,7 +37,8 @@ function ContactForm() {
   };
 
   return (
-    <section>
+    <Container fluid>
+      <Row>
       <h1>Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
@@ -49,7 +51,7 @@ function ContactForm() {
         </div>
         <div>
           <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} className="col-12"/>
         </div>
         {errorMessage && (
           <div>
@@ -58,7 +60,8 @@ function ContactForm() {
         )}
         <button data-testid="button" type="submit">Submit</button>
       </form>
-    </section>
+      </Row>
+    </Container>
   );
 }
 
