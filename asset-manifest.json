@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RossWestwater_Portfolio/static/css/main.dd20a49a.css",
+    "main.css": "/RossWestwater_Portfolio/static/css/main.44741f5b.css",
     "main.js": "/RossWestwater_Portfolio/static/js/main.bec861e1.js",
     "static/js/787.29f5f528.chunk.js": "/RossWestwater_Portfolio/static/js/787.29f5f528.chunk.js",
     "static/media/Ross-with-son.JPG": "/RossWestwater_Portfolio/static/media/Ross-with-son.72ab5ff9b1ff53e3be96.JPG",
@@ -12,12 +12,12 @@
     "static/media/Budget_Tracker_App.png": "/RossWestwater_Portfolio/static/media/Budget_Tracker_App.cd50e8326caef1b87714.png",
     "static/media/Scheduling_App.png": "/RossWestwater_Portfolio/static/media/Scheduling_App.74d9ea47bdd6b353e3a2.png",
     "index.html": "/RossWestwater_Portfolio/index.html",
-    "main.dd20a49a.css.map": "/RossWestwater_Portfolio/static/css/main.dd20a49a.css.map",
+    "main.44741f5b.css.map": "/RossWestwater_Portfolio/static/css/main.44741f5b.css.map",
     "main.bec861e1.js.map": "/RossWestwater_Portfolio/static/js/main.bec861e1.js.map",
     "787.29f5f528.chunk.js.map": "/RossWestwater_Portfolio/static/js/787.29f5f528.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd20a49a.css",
+    "static/css/main.44741f5b.css",
     "static/js/main.bec861e1.js"
   ]
 }
