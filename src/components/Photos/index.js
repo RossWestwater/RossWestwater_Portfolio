@@ -1,4 +1,4 @@
-import { Col, Container, Row, Image } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 const PhotoList = () => {
   const photos = [
     {
@@ -61,9 +61,8 @@ const PhotoList = () => {
       name: "Budget Tracking App",
       description:
         "App that utilizes MongoDB to store budget information. Retains functionality offline.",
-      technologiesUsed: "express, handlebars templating, javascript",
-      filePath: "Budget_Tracker_App",
       technologiesUsed: "mongoose, express",
+      filePath: "Budget_Tracker_App",
       githubRepository: "https://github.com/RossWestwater/TrackThatBudget",
       deployedApp: "https://track-that-yummy-budget.herokuapp.com/",
     },
@@ -90,11 +89,11 @@ const PhotoList = () => {
                 <h4>Technologies/Concepts Used:</h4>
                 {photo.technologiesUsed}
                 <h4>Links:</h4>
-                <a href={photo.githubRepository} target={"_blank"}>
+                <a href={photo.githubRepository} target={"_blank"} rel="noreferrer">
                   GitHub Repo
                 </a>
                 |
-                <a href={photo.deployedApp} target={"_blank"}>
+                <a href={photo.deployedApp} target={"_blank"} rel="noreferrer">
                   Deployed App
                 </a>
               </div>
