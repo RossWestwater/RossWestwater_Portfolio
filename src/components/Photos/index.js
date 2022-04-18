@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Card } from "react-bootstrap";
 const PhotoList = () => {
   const photos = [
     {
@@ -78,17 +78,18 @@ const PhotoList = () => {
       <Container fluid >
         <Row>
         {photos.map((photo) => (
-            <Col xs md="6" xl="4" key={photo.name}>
-              <h3 className="center"> {photo.name}</h3>
+            <Col sm md="6" xl="4" key={photo.name} >
+          <Card border="dark" style={{width: '100%'}} className='mb-2 px-2'>
+              <Card.Title className="center my-2" border="dark" style={{background: "rgb(132, 169, 192)"}}> {photo.name}</Card.Title>
               <img
                 src={require(`../../assets/images/${photo.filePath}.png`)}
                 alt={photo.name}
               />
               <div className="mb-2">
-                <h4>Description:</h4> {photo.description}
-                <h4>Technologies/Concepts Used:</h4>
+                <Card.Header style={{background: "rgb(132, 169, 192)"}}>Description:</Card.Header > {photo.description}
+                <Card.Header style={{background: "rgb(132, 169, 192)"}}>Technologies/Concepts Used:</Card.Header >
                 {photo.technologiesUsed}
-                <h4>Links:</h4>
+                <Card.Header style={{background: "rgb(132, 169, 192)"}}>Links:</Card.Header >
                 <a href={photo.githubRepository} target={"_blank"} rel="noreferrer">
                   GitHub Repo
                 </a>
@@ -97,6 +98,7 @@ const PhotoList = () => {
                   Deployed App
                 </a>
               </div>
+            </Card>
             </Col>
         ))}
         </Row>
