@@ -33,11 +33,13 @@ function App() {
 
   return (
     <div className="pageBackground">
+      <header>
       <Header page={pageRender} changePage={setPageRender}/>
-      <main>
+      </header>
+      <main style={{minHeight: '76vh'}}>
         <RenderComponent/>
       </main>
-      <footer className="footerBackground">
+      <footer className="footerBackground" style={{minHeight: '11vh'}}>
         <Footer />
       </footer>
     </div>
