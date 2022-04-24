@@ -33,9 +33,9 @@ function App() {
 
   return (
     <div className="pageBackground">
-      <header>
+      <div style={{maxHeight: '12vh'}}>
       <Header page={pageRender} changePage={setPageRender}/>
-      </header>
+      </div>
       <main style={{minHeight: '76vh'}}>
         <RenderComponent/>
       </main>

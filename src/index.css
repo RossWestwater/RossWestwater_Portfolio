@@ -38,6 +38,10 @@ main {
   background-color: rgb(132, 169, 192);
 }
 
+footer a{
+  color: #343a40
+}
+
 .footerBackground {
   background-color: rgb(221, 216, 184);
 }
@@ -97,8 +101,28 @@ a:hover {
   text-decoration: underline;
 }
 
-header {
+header{
   background: var(--dark);
+}
+
+header h1{
+  background: var(--dark);
+  animation-name: top;
+  animation-duration: 1000ms;
+}
+header div{
+  background: var(--dark);
+  animation-name: display;
+  animation-duration: 1000ms;
+}
+
+@keyframes top {
+  0% {margin-top: -500px;}
+  100% {margin: 0%;}
+}
+@keyframes display {
+  0% {margin-left: -100%;}
+  100% {margin: 0%;}
 }
 
 header a {
@@ -312,7 +336,7 @@ textarea {
 }
 
 button {
-  background: var(--primary);
+  background: var(--secondary);
   border: 0;
   border-radius: 5px;
   color: #fff;
