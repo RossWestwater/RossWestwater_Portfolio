@@ -1,10 +1,12 @@
 function Resume(props) {
   
   return (
-    <div className='my-5 '>
+    <div >
+      <p className="mb-4">
       In need of a Full-Stack Web Developer? <a href='yahoo.com'>Download</a> my resume!
-      <h4 className="my-5">Front-End Proficiencies:</h4>
-        <ul>
+      </p>
+      <h4>Front-End Proficiencies:</h4>
+        <ul >
           <li>• HTML</li>
           <li>• CSS</li>
           <li>• JavaScript</li>

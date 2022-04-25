@@ -59,8 +59,7 @@ h6 {
 }
 
 h1 {
-  font-size: 3rem;
-  padding-left: 2rem;
+  font-size: 2.6rem;
   color: var(--light);
   display: inline-block;
 }
@@ -105,24 +104,19 @@ header{
   background: var(--dark);
 }
 
-header h1{
-  background: var(--dark);
-  animation-name: top;
-  animation-duration: 1000ms;
-}
-header div{
+header{
   background: var(--dark);
   animation-name: display;
   animation-duration: 1000ms;
 }
 
-@keyframes top {
-  0% {margin-top: -500px;}
-  100% {margin: 0%;}
-}
 @keyframes display {
   0% {margin-left: -100%;}
   100% {margin: 0%;}
+}
+
+header h1 {
+  padding-left: 1rem;
 }
 
 header a {
@@ -179,6 +173,10 @@ input:focus {
 
 li {
   list-style: none;
+}
+
+nav li:hover {
+opacity: 0.7;
 }
 
 ul {

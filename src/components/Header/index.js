@@ -5,7 +5,7 @@ import Nav from '../Navigation';
 function Header(props) {
   return (
     <header>
-      <h1>Ross Westwater</h1>
+      <h1 >Ross Westwater</h1>
       <div>
       <Nav page={props.page} changePage={props.changePage}/>
       </div>
