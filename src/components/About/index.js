@@ -15,8 +15,7 @@ const About = () => {
         personal development. My focus at this time is in website development
         and I know I can provide an elegant and succinct solution to your
         needs. I possess a positive attitude, hard work ethic, aptitude for
-        learning and a knowledge in html, CSS, Javascript that will be to the
-        benefit of any employer.
+        learning and a knowledge in technologies/concepts including (but not limited to): HTML, CSS, Javascript, React, responsive design, RESTful API, Express, MySQL, MongoDB and NodeJS.
       </p>
     </div>
   )
