@@ -2,7 +2,7 @@
 
 ## Description
 
-Created for future employment seeking, this portfolio is a showcase of skills. It is an MVP and needs some fine tuning (under construction), but it is a good starting point for showing some javascript and React usage. I look forward to continuing to improve and format this SPA.
+This is my Portfolio, created with react and stylized with bootstrap. It showcases some of my works, which I look forward to exercise further skill in developing further. If you have any questions regarding any of the items you see, please don't hesitate to reach out to me! The contact section will send an email directly to me and a copy of my most current resume may be downloaded, if you're in need of a full stack web developer! Looking forward to connecting!
 
 ## Installation
 
