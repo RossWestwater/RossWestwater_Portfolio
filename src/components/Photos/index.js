@@ -24,7 +24,7 @@ const PhotoList = () => {
     {
       name: "LastMinute",
       description:
-        "One-stop date night app! input a few desired ingredients from the fridge and the app will give random recipes using the ingredients. You can also purchase tickets to local events to complete your date!",
+        "One-stop date night app! Input a few desired ingredients from the fridge and the app will give random recipes using the ingredients. You can also purchase tickets to local events to complete your date!",
       technologiesUsed: "HTML, CSS, javascript, Bootstrap, APIs",
       filePath: "LastMinute",
       githubRepository: "https://github.com/RossWestwater/lastMinute",
@@ -70,37 +70,76 @@ const PhotoList = () => {
 
   return (
     <div>
-      <h2 className="center py-5 bg-light" style={{borderRadius:'15px'}}>
-        The following are a few samples of apps that I have been involved in
-        creating:
+      <h2
+        className="center py-3 bg-light border border-dark"
+        style={{ borderRadius: "15px" }}
+      >
+        Some of my works:
       </h2>
 
-      <Container fluid >
-        <Row>
-        {photos.map((photo) => (
-            <Col sm md="6" xl="4" key={photo.name} >
-          <Card border="dark" style={{width: '100%'}} className='mb-2 px-2 cardBackground'>
-              <Card.Title className="center my-2" border="dark" style={{background: "rgb(132, 169, 192)"}}> {photo.name}</Card.Title>
-              <img
-                src={require(`../../assets/images/${photo.filePath}.png`)}
-                alt={photo.name}
-              />
-              <div className="mb-2">
-                <Card.Header style={{background: "rgb(132, 169, 192)"}}>Description:</Card.Header > {photo.description}
-                <Card.Header style={{background: "rgb(132, 169, 192)"}}>Technologies/Concepts Used:</Card.Header >
-                {photo.technologiesUsed}
-                <Card.Header style={{background: "rgb(132, 169, 192)"}}>Links:</Card.Header >
-                <a href={photo.githubRepository} target={"_blank"} rel="noreferrer">
-                  GitHub Repo
-                </a>
-                |
-                <a href={photo.deployedApp} target={"_blank"} rel="noreferrer">
-                  Deployed App
-                </a>
-              </div>
-            </Card>
+      <Container fluid>
+        <Row className="bg-dark rounded">
+          {photos.map((photo) => (
+            <Col sm md="6" xl="4" key={photo.name}>
+              <Card
+                border="dark"
+                style={{ width: "100%" }}
+                className="mb-2 px-2 cardBackground"
+              >
+                <Card.Title
+                  className="center my-2 py-2 border border-dark"
+                  style={{ background: "rgb(132, 169, 192)" }}
+                >
+                  {" "}
+                  {photo.name}
+                </Card.Title>
+                <img
+                  className="border border-dark"
+                  src={require(`../../assets/images/${photo.filePath}.png`)}
+                  alt={photo.name}
+                />
+                <div className="mb-2">
+                  <Card.Header
+                    className="border border-dark"
+                    style={{ background: "rgb(132, 169, 192)" }}
+                  >
+                    Description:
+                  </Card.Header>{" "}
+                  {photo.description}
+                  <Card.Header
+                    className="border border-dark"
+                    style={{ background: "rgb(132, 169, 192)" }}
+                  >
+                    Technologies/Concepts Used:
+                  </Card.Header>
+                  {photo.technologiesUsed}
+                  <Card.Header
+                    className="border border-dark"
+                    style={{ background: "rgb(132, 169, 192)" }}
+                  >
+                    Links:
+                  </Card.Header>
+                  <div className="my-2">
+                    <a
+                      href={photo.githubRepository}
+                      target={"_blank"}
+                      rel="noreferrer"
+                    >
+                      GitHub Repo
+                    </a>
+                    |
+                    <a
+                      href={photo.deployedApp}
+                      target={"_blank"}
+                      rel="noreferrer"
+                    >
+                      Deployed App
+                    </a>
+                  </div>
+                </div>
+              </Card>
             </Col>
-        ))}
+          ))}
         </Row>
       </Container>
     </div>

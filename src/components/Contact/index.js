@@ -8,7 +8,7 @@ function ContactForm() {
     from_name: "",
     to_name: "Ross",
     message: "",
-    reply_to: ""
+    reply_to: "",
   });
 
   const [errorMessage, setErrorMessage] = useState("");
@@ -16,17 +16,12 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    send(
-      'service_turbnim',
-      'template_jcyjo59',
-      toSend,
-      'yKfX4rf9lbQ1nJQzj'
-    )
+    send("service_turbnim", "template_jcyjo59", toSend, "yKfX4rf9lbQ1nJQzj")
       .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
+        console.log("SUCCESS!", response.status, response.text);
       })
       .catch((err) => {
-        console.log('FAILED...', err);
+        console.log("FAILED...", err);
       });
   };
 
@@ -54,7 +49,7 @@ function ContactForm() {
   return (
     <Container fluid>
       <Row>
-        <h2>Contact me</h2>
+        <h2 className="m-0 pb-4">Contact me</h2>
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
@@ -89,9 +84,7 @@ function ContactForm() {
               <p>{errorMessage}</p>
             </div>
           )}
-          <button type="submit">
-            Submit
-          </button>
+          <button type="submit">Submit</button>
         </form>
       </Row>
     </Container>

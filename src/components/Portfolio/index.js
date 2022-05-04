@@ -1,13 +1,12 @@
-import React from 'react';
-import PhotoList from '../Photos';
+import React from "react";
+import PhotoList from "../Photos";
 
 function Portfolio() {
-  
   return (
     <div>
-      <PhotoList/>
+      <PhotoList />
     </div>
-  )
+  );
 }
 
-export default Portfolio
+export default Portfolio;
