@@ -43,14 +43,13 @@ function ContactForm() {
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
+        setErrorMessage(`${e.target.id} is required.`);
       } else {
         setErrorMessage("");
       }
     }
     if (!errorMessage) {
       setToSend({ ...toSend, [e.target.name]: e.target.value });
-      console.log("Handle Form", toSend);
     }
   };
 
@@ -66,6 +65,7 @@ function ContactForm() {
               type="text"
               name="from_name"
               defaultValue={toSend.from_name}
+              onChange={handleChange}
               onBlur={handleChange}
             />
           </div>
@@ -76,6 +76,7 @@ function ContactForm() {
               type="email"
               name="reply_to"
               defaultValue={toSend.reply_to}
+              onChange={handleChange}
               onBlur={handleChange}
             />
           </div>
@@ -86,6 +87,7 @@ function ContactForm() {
               name="message"
               rows="5"
               defaultValue={toSend.message}
+              onChange={handleChange}
               onBlur={handleChange}
               className="col-12"
             />
