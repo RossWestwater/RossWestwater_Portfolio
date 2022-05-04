@@ -96,6 +96,20 @@ a {
   font-weight: bold;
 }
 
+.cardBackground {
+  border-radius: 15px;
+}
+
+nav ul li {
+  padding: 0px 0px;
+}
+
+p a:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+
 a:hover {
   text-decoration: underline;
 }

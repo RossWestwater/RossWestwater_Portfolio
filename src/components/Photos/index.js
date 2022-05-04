@@ -70,7 +70,7 @@ const PhotoList = () => {
 
   return (
     <div>
-      <h2 className="center">
+      <h2 className="center py-5 bg-light" style={{borderRadius:'15px'}}>
         The following are a few samples of apps that I have been involved in
         creating:
       </h2>
@@ -79,7 +79,7 @@ const PhotoList = () => {
         <Row>
         {photos.map((photo) => (
             <Col sm md="6" xl="4" key={photo.name} >
-          <Card border="dark" style={{width: '100%'}} className='mb-2 px-2'>
+          <Card border="dark" style={{width: '100%'}} className='mb-2 px-2 cardBackground'>
               <Card.Title className="center my-2" border="dark" style={{background: "rgb(132, 169, 192)"}}> {photo.name}</Card.Title>
               <img
                 src={require(`../../assets/images/${photo.filePath}.png`)}
