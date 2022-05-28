@@ -8,8 +8,8 @@ const PhotoList = () => {
       technologiesUsed:
         "express, mongoose, mongoDB, bcrypt, json-web-token, tailwind, javascript, react, react-bootstrap",
       filePath: "WorthIt_App",
-      githubRepository: "https://github.com/RossWestwater/worthIt",
-      deployedApp: "https://worth-it-2022.herokuapp.com/",
+      githubRepository: "https://github.com/RossWestwater/WorthIt_App",
+      deployedApp: "https://worthit-app-05.herokuapp.com/",
     },
     {
       name: "TroubleShot",
@@ -28,7 +28,7 @@ const PhotoList = () => {
       technologiesUsed: "HTML, CSS, javascript, Bootstrap, APIs",
       filePath: "LastMinute",
       githubRepository: "https://github.com/RossWestwater/lastMinute",
-      deployedApp: "https://hone12345678.github.io/lastMinute/",
+      deployedApp: "rosswestwater.github.io/lastminute/",
     },
     {
       name: "Forecast App",

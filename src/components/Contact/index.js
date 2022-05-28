@@ -4,7 +4,6 @@ import { Container, Row, Modal, Button } from "react-bootstrap";
 import { send } from "emailjs-com";
 
 function ContactForm() {
-  const [validContact, setValidContact] = useState(false)
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -56,7 +55,9 @@ function ContactForm() {
   return (
     <Container fluid>
       <Row>
-        <h2 className="m-0 pb-4">Contact me</h2>
+        <h2 className="mx-2 py-2 bg-light border border-dark center" style={{ borderRadius: "15px" }}>Contact me
+          
+        </h2>
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
@@ -99,6 +100,7 @@ function ContactForm() {
           )}
           <button type="submit">Submit</button>
         </form>
+        <p>Emails can be sent to me directly at: <a href="mailTo: ross.westwater@gmail.com">ross.westwater@gmail.com</a></p>
       </Row>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
