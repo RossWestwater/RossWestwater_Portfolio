@@ -1,10 +1,10 @@
-import resumeDL from "../../assets/images/Ross_Resume.png";
+import resumeDL from "../../assets/images/RossWestwater-Resume-1.png";
 import jsPDF from "jspdf";
 
-function Resume(props) {
+function Resume() {
   const dlResume = () => {
     var doc = new jsPDF("portrait", "px", "a4", "false");
-    doc.addImage(resumeDL, "PNG", 23, 20, 400, 550);
+    doc.addImage(resumeDL, "PDF", 23, 20, 400, 550);
     doc.save("Ross_Resume.pdf");
   };
 
@@ -12,7 +12,7 @@ function Resume(props) {
     <div>
       <p className="mb-4">
         In need of a Full-Stack Web Developer?{" "}
-        <a onClick={dlResume}>Download</a> my resume!
+        <button onClick={dlResume}>Download</button> my resume!
       </p>
       <div
               className="py-3 bg-light border border-dark"
